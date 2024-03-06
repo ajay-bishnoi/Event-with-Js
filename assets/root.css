@@ -1,0 +1,172 @@
+:root {
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 24px;
+  --fs-xl: 36px;
+  --fs-2xl: 48px;
+  --fs-3xl: 64px;
+  /* clr */
+  --white: #ffffff;
+  --blue: #2c49fe;
+  --light-blue: #01c8ff;
+  --black: #000000;
+  --gray: #00000033;
+  --shadow: #0000001a;
+}
+.clr-blk {
+  color: var(--black);
+}
+
+.fs-14 {
+  font-size: var(--fs-sm);
+}
+.fs-16 {
+  font-size: var(--fs-md);
+}
+.fs-24 {
+  font-size: var(--fs-lg);
+}
+.fs-36 {
+  font-size: var(--fs-xl);
+}
+.fs-48 {
+  font-size: var(--fs-2xl);
+}
+.fs-64 {
+  font-size: var(--fs-3xl);
+}
+
+.lh-18 {
+  line-height: 18px;
+}
+.lh-21 {
+  line-height: 21px;
+}
+.lh-24 {
+  line-height: 24px;
+}
+.lh-36 {
+  line-height: 36px;
+}
+.lh-48 {
+  line-height: 48px;
+}
+.lh-72 {
+  line-height: 72px;
+}
+.lh-96 {
+  line-height: 96px;
+}
+
+@media (max-width: 1400px) {
+  :root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 24px;
+    --fs-xl: 36px;
+    --fs-2xl: 45px;
+    --fs-3xl: 64px;
+  }
+  .card-box {
+    padding: 22px;
+  }
+  .lh-72 {
+    line-height: 56px;
+  }
+  .mb-33 {
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 24px;
+    --fs-xl: 36px;
+    --fs-2xl: 48px;
+    --fs-3xl: 64px;
+  }
+  .card-box {
+    padding: 18px 18px;
+  }
+  .my-21-12 {
+    margin: 12px 0;
+  }
+  .lh-36 {
+    line-height: 30px;
+  }
+  .my-17-14 {
+    margin: 10px 0;
+  }
+  .mb-32 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 992px) {
+  :root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 21px;
+    --fs-xl: 36px;
+    --fs-2xl: 38px;
+    --fs-3xl: 64px;
+  }
+  .fw-700 {
+    font-weight: 600;
+  }
+  .lh-72 {
+    line-height: 65px;
+  }
+  .lh-72 {
+    line-height: 55px;
+  }
+  .lh-36 {
+    line-height: 26px;
+  }
+  .mb-33 {
+    margin-bottom: 26px;
+  }
+  .nextEvent::after {
+    height: 6px;
+  }
+  .nextEvent::before {
+    height: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 36px;
+    --fs-2xl: 28px;
+    --fs-3xl: 64px;
+  }
+  .lh-72 {
+    line-height: 32px;
+  }
+  .mb-33 {
+    margin-bottom: 24px;
+  }
+  .nextEvent::after {
+    left: 50%;
+    width: 110px;
+    height: 5px;
+  }
+  .nextEvent::before {
+    left: 50%;
+    width: 125px;
+    height: 5px;
+  }
+  .card-box {
+    padding: 15px 15px;
+  }
+  .lh-36 {
+    line-height: 22px;
+  }
+  .card-btn {
+    height: 40px;
+  }
+}
