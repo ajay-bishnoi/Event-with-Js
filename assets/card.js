@@ -44,8 +44,7 @@ for (let i = 0; i < cardData.length; i++) {
     "card-box",
     "d-flex",
     "flex-column",
-    "justify-content-between",
-    "pointer"
+    "justify-content-between"
   );
   card.innerHTML = `
         <img class="cards-img w-100" src="${cardData[i].cardIamge}" alt="pary-imge">
